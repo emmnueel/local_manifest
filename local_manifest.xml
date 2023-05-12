@@ -6,7 +6,7 @@
   <remote name="clang" fetch="https://gitlab.com/sanjeevstunner"/>
 
  <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="emmnueel" revision="thirteen"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="emmnueel" revision="lineage-20"/>
      
  <!-- Device Tree -->
   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="emmnueel" revision="lineage-20"/>
@@ -21,7 +21,7 @@
   <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
 
  <!--Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="aether192" revision="thirteen"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dev revision="lineage-20"/>
 
  <!--Sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
