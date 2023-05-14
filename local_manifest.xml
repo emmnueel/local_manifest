@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
-  <remote name="lineage" fetch="https://github.com/LineageOS" />
+  <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="emmnueel" fetch="https://github.com/emmnueel" />
   <remote name="clang" fetch="https://gitlab.com/sanjeevstunner"/>
 
@@ -25,7 +25,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dev" revision="lineage-20"/>
 
  <!--Sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
 
  <!--Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
